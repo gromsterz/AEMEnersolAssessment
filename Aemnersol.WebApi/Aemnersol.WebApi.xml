@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Aemnersol.WebApi</name>
+    </assembly>
+    <members>
+        <member name="M:Aemnersol.WebApi.Controllers.PlatformWellController.Get">
+            <summary>Get a list of Platform Wells</summary>
+            <returns>A list of Platform Wells</returns>
+        </member>
+        <member name="M:Aemnersol.WebApi.Controllers.SyncController.Post(Aemnersol.Api.Models.Request.GetBearerTokenRequest)">
+            <summary>Start the synchronization process.</summary>
+            <param name="username">The username to access the API.</param>
+            <param name="password">The password to access the API.</param>
+            <returns>A boolean result to indicate the process has succesfully started and finished.</returns>
+        </member>
+    </members>
+</doc>
